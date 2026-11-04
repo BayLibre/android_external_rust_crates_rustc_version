@@ -1,0 +1,28 @@
+name: "rustc_version"
+description: "A library for querying the version of a installed rustc compiler"
+third_party {
+  version: "0.4.1"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 11
+    day: 4
+  }
+  homepage: "https://crates.io/crates/rustc_version"
+  identifier {
+    type: "crates.io"
+    value: "rustc_version"
+    version: "0.4.1"
+    primary_source: true
+  }
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/rustc_version/rustc_version-0.4.1.crate"
+    version: "0.4.1"
+  }
+  identifier {
+    type: "Git"
+    value: "https://github.com/djc/rustc-version-rs"
+    version: "eeca449cca83e24150e46739e797aa82e9142809"
+  }
+}
